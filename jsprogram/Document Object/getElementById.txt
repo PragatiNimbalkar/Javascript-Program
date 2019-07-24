@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+function getCube()
+{
+	alert("WELCOME : "+name);
+}
+</script>
+
+
+</head>
+<body>
+
+<form name="form1">
+Enter Name:<input type="text" name="name"/>
+<input type="button" onclick="getCube()" value="Print Name"/>
+</form>
+</body>
+</html>

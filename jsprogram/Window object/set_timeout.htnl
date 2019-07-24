@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+function msg()
+{
+	setTimeout(function(){
+		alert("Welcome to javascript after 2 second");
+	
+	},2000);
+	var v=prompt("Who Are You?");
+	
+		
+	
+}
+</script>
+
+</head>
+<body>
+<input type="button" value="click" onclick="msg()">
+</body>
+</html>
